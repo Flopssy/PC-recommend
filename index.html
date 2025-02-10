@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PC 추천</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>PC 부품 추천</h1>
+    <div class="input-group">
+      <label>예산(원): <input type="number" id="budget" placeholder="예: 1500000" /></label>
+      <label>용도: <input type="text" id="usage" placeholder="예: 게임, 영상 편집" /></label>
+    </div>
+    <button onclick="getRecommendation()">추천 받기</button>
+    <div id="results"></div>
+  </div>
+</body>
+</html>
